@@ -1,0 +1,16 @@
+{
+    "name": "bagratsaatsazov/codechallenge-master",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Bagratsaatsazov\\CodechallengeMaster\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bagrat",
+            "email": "b.saatsazov@gmail.com"
+        }
+    ],
+    "require": {}
+}
