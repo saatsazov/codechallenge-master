@@ -36,3 +36,10 @@ Session Baz - Feb 28th 2018 12:30pm-1:30pm
 All tools that you would use in your day to day job are fair game. Google is your friend. Take three simulated Database dumps (Sessions, Speakers, Join table) which are stored in the repo as SQL files. Combine the data and sort these sessions by the speaker's last name. Your output does not need to follow the example given above, verbatim. It's just an example. 
 
 While you should be able to complete this challenge in roughly 2-3 hours, do not feel compelled to timebox yourself. Feel free to add your own flair and make the code your own. If needed, make your best assumptions and explain how/why.
+
+
+### Devlog
+
+Please note some todo.
+
+Well At this point I can probably map relations between tables for lazy loading. But I'll try repository first.
