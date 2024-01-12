@@ -16,7 +16,7 @@ class Role
          * 
          * UNIQUE KEY `userid` (`userid`,`sessionid`,`usertype`)
          * meaning only one user can be attached to one session with specific role.
-        */
+         */
         public ?string $usertype = '',
     ) {
     }

@@ -10,9 +10,9 @@ class User
         // todo: ask why no unique constrain on session id table
         public string $id,
         public string $name = '',
-        
+
         public string $session_key = '',
-        
+
         public DateTimeImmutable $session_start = new DateTimeImmutable('0000-00-00 00:00:00'),
         public ?DateTimeImmutable $session_end = null,
 
@@ -24,6 +24,6 @@ class User
 
         # todo: somehow mapping for this variable.
         public bool $active = true,
-        ) {
+    ) {
     }
 }

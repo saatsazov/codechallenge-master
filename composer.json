@@ -3,7 +3,7 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Bagratsaatsazov\\CodechallengeMaster\\": "src/"
+            "Bagratsaatsazov\\Codechallenge\\": "src/"
         }
     },
     "authors": [
