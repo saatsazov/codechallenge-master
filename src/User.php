@@ -1,6 +1,6 @@
 <?php
 
-namespace Bagratsaatsazov\CodechallengeMaster;
+namespace Bagratsaatsazov\Codechallenge;
 
 use DateTimeImmutable;
 
