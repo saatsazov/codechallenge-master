@@ -51,3 +51,5 @@ Hmmm. Maybe it make sense`session_name` or at least `session_key` unique constra
 
 - single session may have multiple speakers. So does order of sessions matter? As sorting speakers
 - At this point manual review needed in order to migrate data format with single `name` column to `first_name` and `last_name`
+
+No pagination at this point!
