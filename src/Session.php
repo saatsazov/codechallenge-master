@@ -4,7 +4,7 @@ namespace Bagratsaatsazov\Codechallenge;
 
 use DateTimeImmutable;
 
-class User
+final class Session
 {
     public function __construct(
         // todo: ask why no unique constrain on session id table

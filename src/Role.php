@@ -4,7 +4,7 @@ namespace Bagratsaatsazov\Codechallenge;
 
 use DateTimeImmutable;
 
-class Role
+final class Role
 {
     public function __construct(
         public int $userid,
