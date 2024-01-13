@@ -8,8 +8,21 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 
+/**
+ * @param int $id
+ * @param string $username
+ * @param DateTime $joined
+ * @param ?string $name
+ * @param ?string $email
+ * @param ?string $url
+ * @param string $about
+ * @param ?string $avatar
+ */
 class User extends Authenticatable
 {
+    // todo: why I can't use string here because of inheritance
+    protected $table = 'user';
+
     use HasApiTokens, HasFactory, Notifiable;
 
     /**
@@ -17,21 +30,14 @@ class User extends Authenticatable
      *
      * @var array<int, string>
      */
-    protected $fillable = [
-        'name',
-        'email',
-        'password',
-    ];
+    protected $fillable = [];
 
     /**
      * The attributes that should be hidden for serialization.
      *
      * @var array<int, string>
      */
-    protected $hidden = [
-        'password',
-        'remember_token',
-    ];
+    protected $hidden = [];
 
     /**
      * The attributes that should be cast.
@@ -39,7 +45,6 @@ class User extends Authenticatable
      * @var array<string, string>
      */
     protected $casts = [
-        'email_verified_at' => 'datetime',
-        'password' => 'hashed',
+        'joined' => 'datetime',
     ];
 }

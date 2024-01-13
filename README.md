@@ -53,3 +53,6 @@ Hmmm. Maybe it make sense`session_name` or at least `session_key` unique constra
 - At this point manual review needed in order to migrate data format with single `name` column to `first_name` and `last_name`
 
 No pagination at this point!
+
+
+Nice to have: Openapi
