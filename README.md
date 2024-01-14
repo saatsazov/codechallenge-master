@@ -56,3 +56,5 @@ No pagination at this point!
 
 
 Nice to have: Openapi
+
+Frontend project: https://github.com/saatsazov/codechallenge-frontend
