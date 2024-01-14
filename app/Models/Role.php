@@ -36,4 +36,9 @@ class Role extends Model
     protected $casts = [
         'updated' => 'datetime',
     ];
+
+    public function user()
+    {
+        return $this->hasOne(User::class, "id", "userid");
+    }
 }
