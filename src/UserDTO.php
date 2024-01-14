@@ -4,7 +4,7 @@ namespace Bagratsaatsazov\Codechallenge;
 
 use DateTimeImmutable;
 
-class User
+class UserDTO
 {
     public function __construct(
         public int $id,

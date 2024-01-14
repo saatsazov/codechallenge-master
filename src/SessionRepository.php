@@ -7,7 +7,7 @@ final class SessionRepository
     /**
      * 
      * @param int[] $sessionIds 
-     * @return Role[] 
+     * @return RoleDTO[] 
      */
     public function participantBulk(array $sessionIds): array
     {

@@ -4,7 +4,7 @@ namespace Bagratsaatsazov\Codechallenge;
 
 use DateTimeImmutable;
 
-final class Role
+final class RoleDTO
 {
     public function __construct(
         public int $userid,
@@ -18,6 +18,7 @@ final class Role
          * meaning only one user can be attached to one session with specific role.
          */
         public ?string $usertype = '',
+
     ) {
     }
 }
