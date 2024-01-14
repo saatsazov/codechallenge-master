@@ -69,6 +69,15 @@ class Session extends Model
         );
     }
 
+    public function speakers()
+    {
+        return $this->hasMany(
+            Role::class,
+            'sessionid',
+            'id'
+        )->where('usertype', 'speaker');
+    }
+
     // TODO: maybe it's possible to connect users directly via roles, but I need more time to figure that out
 
     // public function deployments(): HasManyThrough

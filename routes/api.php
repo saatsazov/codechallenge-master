@@ -21,7 +21,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get("/schedule", function (Request $request) {
     // not optimal solution in terms of performance probably produces a lot of queries
-    $sessions = Session::with('participants.user')
+    $sessions = Session::with('speakers.user')
         ->where('active', 'Y')
         ->get();
 
