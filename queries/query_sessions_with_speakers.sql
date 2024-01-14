@@ -1,4 +1,7 @@
 select
+    s.id,
+    s.session_start,
+    s.session_end,
     u.name,
     r.usertype
 from
