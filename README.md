@@ -37,7 +37,6 @@ All tools that you would use in your day to day job are fair game. Google is you
 
 While you should be able to complete this challenge in roughly 2-3 hours, do not feel compelled to timebox yourself. Feel free to add your own flair and make the code your own. If needed, make your best assumptions and explain how/why.
 
-
 ### Devlog
 
 Please note some todo.
@@ -47,6 +46,7 @@ Well At this point I can probably map relations between tables for lazy loading.
 Hmmm. Maybe it make sense`session_name` or at least `session_key` unique constrain? I'm just thinking about user mistake creating the same session twice and have some misunderstanding.
 
 #### q1
+
 > sort the sessions alphabetically based on the speaker's last name
 
 - single session may have multiple speakers. So does order of sessions matter? As sorting speakers
@@ -54,7 +54,16 @@ Hmmm. Maybe it make sense`session_name` or at least `session_key` unique constra
 
 No pagination at this point!
 
-
 Nice to have: Openapi
 
 Frontend project: https://github.com/saatsazov/codechallenge-frontend
+
+---
+
+Just to note my process. 
+
+![process](assets/process.png)
+
+# I Use debugger
+
+for both frontend and backend
