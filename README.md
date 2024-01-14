@@ -71,7 +71,9 @@ for both frontend and backend
 
 ### Conclusion
  - Frontend project: https://github.com/saatsazov/codechallenge-frontend
- - Live: https://codechallenge-frontend.pages.dev (fake api is used !insert link to code here!)
+ - Live: https://codechallenge-frontend.pages.dev 
+ 
+ Fake api is used for production for easy deploy https://github.com/saatsazov/codechallenge-frontend/blob/ccd6191220661535a4c498d89bdbba64732e923c/src/api/Api.ts#L8
 
 I left a lot of comment on the project as this is just a some draft of a bootstrapping a new project.
 
