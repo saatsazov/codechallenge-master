@@ -64,6 +64,20 @@ Just to note my process.
 
 ![process](assets/process.png)
 
-# I Use debugger
+*I Use debugger*
+
 
 for both frontend and backend
+
+### Conclusion
+ - Frontend project: https://github.com/saatsazov/codechallenge-frontend
+ - Live: https://codechallenge-frontend.pages.dev (fake api is used !insert link to code here!)
+
+I left a lot of comment on the project as this is just a some draft of a bootstrapping a new project.
+
+Please note I made some function in order to format date as required on client side. To show appointments in client timezone (I'm not sure it's now works correctly but I definitely put some ground work for that). 
+https://github.com/saatsazov/codechallenge-frontend/blob/921297f00fdfdda298b5e431f69d6ae8df96958c/src/components/Session.vue#L20
+
+I didn't do much code organization/architecture and mostly now it's in a wip state.
+
+I can continue working on the project. But I'd like to have some feedback at this point.
